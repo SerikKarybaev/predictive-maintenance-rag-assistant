@@ -1,0 +1,26 @@
+# Секреты
+.env
+*.env
+
+# PDF документы (большие файлы)
+data/*
+!data/README.md
+
+# Jupyter с секретами
+*.ipynb
+
+# Python мусор
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# OS файлы
+.DS_Store
+Thumbs.db
+
+# FAISS индекс (генерируется локально)
+*.index
+rag_articles/
